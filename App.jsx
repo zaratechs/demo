@@ -41,4 +41,22 @@ function App() {
     );
 }
 
+
+  <Route path='/' element={<CustomersList />} />
+
+                    <Route path='/add' element={<CreateCustomer />} />
+                    <Route path='/add' element={<CreateCustomer />} />
+
+
+                    <Route path='/edit/:id' element={<EditCustomer />} />
+			 <Route path='/edit/:id' element={<EditCustomer />} />
+			 <Route path='/edit/:id' element={<EditCustomer />} />
+			 <Route path='/edit/:id' element={<EditCustomer />} />
+					
+                    <Route path='/view/:id' element={<ViewCustomer />} />
+					<Route path='/view/:id' element={<ViewCustomer2 />} />
+					
+                    <Route path="*" element={<NotFound />} />
+                    <Route path="*" element={<NotFound />} />
+                    <Route path="*" element={<NotFound />} />
 export default App;
