@@ -23,6 +23,9 @@ function App() {
 
 
                     <Route path='/edit/:id' element={<EditCustomer />} />
+			 <Route path='/edit/:id' element={<EditCustomer />} />
+			 <Route path='/edit/:id' element={<EditCustomer />} />
+			 <Route path='/edit/:id' element={<EditCustomer />} />
 					
                     <Route path='/view/:id' element={<ViewCustomer />} />
 					<Route path='/view/:id' element={<ViewCustomer2 />} />
