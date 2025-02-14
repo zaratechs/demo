@@ -7,6 +7,8 @@ import CustomersList from "./pages/CustomersList.jsx";
 import EditCustomer from "./pages/EditCustomer.jsx";
 import ViewCustomer from "./pages/ViewCustomer.jsx";
 
+import ViewCustomer from "./pages/ViewCustomer.jsx";
+
 
 
 function App() {
